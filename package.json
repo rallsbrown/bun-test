@@ -2,10 +2,17 @@
   "name": "bun-first",
   "module": "index.js",
   "type": "module",
+  "scripts": {
+    "start": "bun run index.js",
+    "dev": "bun --watch index.js"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "figlet": "^1.7.0"
   }
 }
